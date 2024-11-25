@@ -10,9 +10,6 @@
     "runArgs": [
         "--hostname=ubuntu-cuda-dev"
     ],
-    "hostRequirements": {
-        "cpus": 2
-    },
     "remoteUser": "developer",
     "containerUser": "developer",
     "waitFor": "onCreateCommand",
@@ -24,12 +21,13 @@
         },
         "vscode": {
             "extensions": [
-                "ms-toolsai.jupyter",
                 "ms-python.python",
+                "ms-toolsai.jupyter",
                 "ms-python.black-formatter",
                 "ms-python.isort",
                 "ms-python.mypy-type-checker",
                 "ms-python.flake8",
+                "ms-python.vscode-pylance",
                 "streetsidesoftware.code-spell-checker",
                 "ms-azuretools.vscode-docker"
             ]

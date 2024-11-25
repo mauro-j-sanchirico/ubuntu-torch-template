@@ -14,15 +14,8 @@ RUN groupadd -f $USERNAME \
     && echo $USERNAME ALL=\(root\) NOPASSWD:ALL > /etc/sudoers.d/$USERNAME \
     && chmod 0440 /etc/sudoers.d/$USERNAME
 
-# Install basic packages
-RUN apt-get -y update \
-    && apt-get install -yq curl vim git python3 python3-pip npm \
-    && apt-get clean
-
-RUN ln -sf /usr/bin/python3 /usr/bin/python
-
 # Enable sudo for root
 RUN echo "root ALL=(ALL) NOPASSWD:ALL" >> /etc/sudoers
 
-# Set the default user.
+# [Optional] Set the default user. Omit if you want to keep the default as root.
 USER $USERNAME
