@@ -50,9 +50,6 @@ sudo apt update && sudo apt upgrade -y \
 && sudo apt install -y python3.12 python3.12-venv python3.12-dev \
 && sudo apt install -y python3-pip
 
-
-# && curl -sS https://bootstrap.pypa.io/get-pip.py | python3.12
-
 if [ $? -eq 0 ]; then
     echo "Python installed!"
 else
@@ -98,7 +95,7 @@ else
     echo "Failed to change ownership of .git files. This is likely due to the"
     echo "permissions configuration of the host machine. One the host machine,"
     echo "open permissions on .git in the host machine using:"
-    echo "chmod 755 .git"
+    echo "chmod -R 755 .git"
 fi
 
 # ==========================

@@ -1,3 +1,16 @@
+# =============================================================================
+# user_info.sh
+#
+# Description:
+#
+# Holder configuration variables for the container's user account.
+#
+# Usage:
+#
+# source .devcontainer/user_info.sh
+#
+# =============================================================================
+
 user_name="developer"
 group_name="developer"
 developer_home="/home/$user_name"
