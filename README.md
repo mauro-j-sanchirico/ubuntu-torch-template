@@ -2,7 +2,9 @@
 
 This is a template project for using `torch` in an Ubuntu development container for academic research projects.
 
+<div align="center">
 <img src="https://repository-images.githubusercontent.com/893476283/fb713511-1b27-4cb4-81c0-f7c44623cf32" alt="Alt Text" width="600">
+</div>
 
 ## Description
 
