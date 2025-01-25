@@ -8,7 +8,7 @@
         }
     },
     "runArgs": [
-        "--hostname=ubuntu-cuda-dev"
+        "--gpus=all"
     ],
     "remoteUser": "developer",
     "containerUser": "developer",
