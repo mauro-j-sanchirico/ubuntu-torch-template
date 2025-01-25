@@ -1,5 +1,4 @@
-# Run this script to ensure that you can import required libraries to take
-# the exam.
+"""Example script to test Python package imports."""
 
 import matplotlib
 import matplotlib.pyplot as plt

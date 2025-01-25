@@ -1,7 +1,5 @@
 FROM nvidia/cuda:12.6.2-cudnn-devel-ubuntu20.04
 
-# FROM ubuntu:latest
-
 ARG USERNAME=developer
 ARG GROUPNAME=$USERNAME
 ARG USER_UID=1000
