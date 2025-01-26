@@ -91,4 +91,4 @@ The development container in this repository is built from an Nvidia deep learni
 
 ## Contributing
 
-Please email Mauro J. Sanchirico III [sanchirico.mauro@gmail.com](sanchirico.mauro@gmail.com) with questions, comments, bug reports, or suggestions.
+Please email Mauro J. Sanchirico III ([sanchirico.mauro@gmail.com](sanchirico.mauro@gmail.com)) with questions, comments, bug reports, or suggestions.
